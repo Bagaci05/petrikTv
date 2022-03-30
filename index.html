@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet">
+  <script src="./mavimport.js"></script>
+  <script src="./ora.js"></script>
+  <title>Tv</title>
+</head>
+<body onload="startTimer(), lessonhighlight(), yearmonthday(), nowtemp()">
+    <div id="before_header">
+    <div class="header">
+        <img id="logo" src="img/icon.png">
+        <div class="textbox">
+          <p class="popout">
+            <span>Petrik</span>
+            <span>TV</span>
+          </p>
+            <h2>Legyen szép napod!</h2>
+        </div>
+        <div class="time">
+            <p id="clock">12:00:00</p>
+            <h1 id="tpnow">Hőmérséklet: ℃</h1>
+          </div>
+    </div>
+    </div>
+    
+    
+    <div class="bottom">
+        <div>
+            
+            <table class="t2">
+              <tbody><tr>
+                <th colspan="2">Keleti pályaudvar felé</th>
+              </tr>
+              <tr>
+                <th>Busz</th>
+                <th>Érkezési idő</th>
+              </tr>
+              
+              </tbody><tbody>
+              </tbody>
+              <tbody><tr>
+                <td id="11jarat"></td>
+                <td id="11ido"></td>
+              </tr>
+              <tr>
+                <td id="21jarat"></td>
+                <td id="21ido"></td>
+              </tr>
+              <tr>
+                <td id="31jarat"></td>
+                <td id="31ido"></td>
+              </tr>
+              <tr>
+                <td id="41jarat"></td>
+                <td id="41ido"></td>
+              </tr>
+              <tr>
+                <td id="51jarat"></td>
+                <td id="51ido"></td>
+              </tr>
+              <tr>
+                  <td>&nbsp</td>
+                  <td>&nbsp</td>
+              </tr>
+              <tr>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+            </tr>   
+            </tbody></table>
+
+
+            <table class="t1">
+                <tbody>
+                  <tr>
+                    <th colspan="2">Csengetési rend</th>
+                  </tr>
+                  <tr id="1ora">
+                    <td>1.óra</td>
+                    <td>8:00-8:45</td>
+                  </tr>
+                  <tr id="2ora">
+                    <td>2.óra</td>
+                    <td>8:55-9:40</td>
+                  </tr>
+                  <tr id="3ora">
+                    <td>3.óra</td>
+                    <td>9:50-10:35</td>
+                  </tr>
+                  <tr id="4ora">
+                    <td>4.óra</td>
+                    <td>10:45-11:30</td>
+                  </tr>
+                  <tr id="5ora">
+                    <td>5.óra</td>
+                    <td>11:40-12:25</td>
+                  </tr>
+                  <tr id="6ora">
+                    <td>6.óra</td>
+                    <td>12:35-13:20</td>
+                  </tr>
+                  <tr id="7ora">
+                    <td>7.óra</td>
+                    <td>13:40-14:25</td>
+                  </tr>
+                  <tr id="8ora">
+                    <td>8.óra</td>
+                    <td>14:30-15:15</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+
+
+
+
+          <table class="t2">
+            <tbody><tr>
+              <th colspan="2">Zugló vasútállomás felé</th>
+            </tr>
+            <tr>
+              <th>Busz</th>
+              <th>Érkezési idő</th>
+            </tr>
+            <tr>
+              <td id="1jarat"></td>
+              <td id="1ido"></td>
+            </tr>
+            <tr>
+              <td id="2jarat"></td>
+              <td id="2ido"></td>
+            </tr>
+            <tr>
+              <td id="3jarat"></td>
+              <td id="3ido"></td>
+            </tr>
+            <tr>
+              <td id="4jarat"></td>
+              <td id="4ido"></td>
+            </tr>
+            <tr>
+              <td id="5jarat"></td>
+              <td id="5ido"></td>
+            </tr>
+            <tr>
+              <td id="6jarat"></td>
+              <td id="6ido"></td>
+            </tr>
+            <tr>
+              <td id="7jarat"></td>
+              <td id="7ido"></td>
+            </tr>
+          </tbody></table>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="bottom">
+      <div id="fontos">
+        <h1>Fontos közlemény</h1>
+        <p>Jelenlegi hét: A</p>
+      </div>
+    </div> -->
+
+
+
+    <footer>
+        <p id="date">yyyy.mm.dd</p>
+    </footer>
+    <script src="./renderer.js"></script>
+</body>
+</html>
